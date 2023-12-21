@@ -1,3 +1,8 @@
+defeats = open("defeats.txt", "a")
+defeats.close()
+victorys = open("victorys.txt", "a")
+victorys.close() 
+
 def searchUser(userName):
 
     victorys = open("victorys.txt", "r")

@@ -44,7 +44,7 @@ result = tkinter.StringVar()
 windowGT.geometry("350x180")
 windowGT.configure(background="#181d20")
 windowGT.resizable(0,0)
-windowGT.iconbitmap("colosseum.ico")
+windowGT.iconbitmap("./icon.ico")
 
 title = tkinter.Label(windowGT, text= "Colosseum Records", bg="#181d20", font="Titillium 14", width=20)
 title.config(fg="#EFB810")
