@@ -65,4 +65,5 @@ addVictoryButton.place(x=100, y=300, height=20)
 addDefeatButton = tkinter.Button(windowGT, font="Titillium 8", bg="red", text="Add Defeat", command=addDefeat)
 addDefeatButton.place(x=190, y=300, height=20)
 
+
 windowGT.mainloop()
